@@ -10,6 +10,7 @@
     - type: `TXT`
     - name: `_dmarc`
     - content: `v=DMARC1; p=none; rua=mailto:postmaster@<ZOHO_EMAIL_DOMAIN>` (use your zoho mail domain here)
+  - [OPTIONAL] adding DKIM record to cloudflare would be perfect, sadly i haven't understood how to do it!
 - in zohomail:
   - in `settings`, `send email as`:
     - click `external from addresses`
